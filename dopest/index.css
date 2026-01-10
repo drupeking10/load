@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('start.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* align-items: center; */
+    /* display: center; */
+    /* align-content: center; */
+}
+.form{
+    display: inline-block;
+    /* align-items: center; */
+    margin: 500px;
+    background-color: rgba(128, 128, 128, 0.6);
+
+    /* padding: 100px; */
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+    border-radius: 20px;
+    padding: 100px ;
+    border: none;
+    border-collapse: collapse;
+    position-area: relative;
+}
+
+#email,#name,#password,#button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    /* border: blue; */
+    border-color: blueviolet;
+
+}
+#button{
+    background-color: darkgreen;
+    display: block;
+    /* margin: 50px; */
+    align-items: start;
+}
+#button:hover{
+    background-color: rgb(0, 255, 127);
+}
+#button:active{
+    background-color: rgba(0, 255, 127, 0.6);
+}
+#link{
+    text-decoration: none;
+    color: red;
+
+}
+#link:hover{
+    color: rgb(123, 20, 220);
+}
+#link:active{
+    color: brown;
+}
