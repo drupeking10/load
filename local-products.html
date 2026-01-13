@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Products</title>
+    <link rel="stylesheet" href="local-products.css">
+</head>
+<body>
+    <div>
+        
+        <h3>Local products</h3>
+
+        <div>
+            <h4>Fresh Fruits and Vegetables</h4>
+            <img src="fruits.jpg" alt="Fresh Fruits and Vegetables">
+            <p>Get the locally available vegies from your farmers!</p>
+            <p>Check out the vegies available below</p>
+            <select name="vegies" id="vegies" >
+                <option value="managu">managu</option>
+                <option value="sukuma wiki">sukuma wiki</option>
+                <option value="kales">kales</option>
+                <option value="spinach">spinach</option>
+                <option value="cabbage">cabbage</option>
+            </select>
+        </div>
+        <div>
+            <h4>Honey</h4>
+            <img src="honey.jpg" alt="Honey">
+            <p>Grab yourself the best quality honey for your household</p>
+            <p>Check out the sweetness that awaits you below</p>
+            <select name="honey" id="honey">
+                <option value="clover-honey">clover-honey</option>
+                <option value="manuka-honey">manuka-honey</option>
+                <option value="fireweed-honey">fireweed-honey</option>
+            <option value="eucalyptus-honey">eucalyptus-honey</option>
+                <option value="wild-honey">wild-honey</option>  
+            </select>
+
+        </div>
+        <div>
+            <h4>Mwea Rice</h4>
+            <img src="mwea_rice.jpg" alt="mwea_rice">
+            <p>Get the best quality rice from your farmers.</p>
+            <p>Rice.. sure we have that.</p>
+            <select name="rice" id="rice">
+                <option value="white-rice">white-rice</option>
+                <option value="brown-rice">brown-rice</option>
+                <option value="basmati">basmati</option>
+                <option value="jolof">jolof</option>
+                <option value="mwea">mwea</option>
+            </select>
+
+        </div>
+        <form action="/submit-endpoint" method="POST">
+            <textarea name="message" rows="4" cols="50">
+                Got something to say ....
+            </textarea>
+            <br>
+            <button type="submit" id="button">Submit</button>
+        </form>
+    </div>
+ 
+    
+</body>
+</html>

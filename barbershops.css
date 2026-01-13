@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: grey;
+    
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+div > div {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.32);
+}
+
+h4 {
+    color: #555;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:none;
+    color: brown;
+
+}
+a :active
+{
+    color: rgb(165,245,30);
+}

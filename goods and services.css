@@ -1,0 +1,38 @@
+body {
+    background: url('image11.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: center;
+}
+h3{
+    /* display: block; */
+}
+.link{
+    display:block ;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link:hover{
+    color: rgb(0, 0, 0, 0.7) ;
+}
+.link:active{
+    color:  rgba(128, 128, 128, 0.8);
+}
+#container{
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    align-items: center;
+    /* text-align: center; */
+    border: solid greenyellow;
+    box-shadow: 15px green;
+    border: none;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.5);
+    
+}
